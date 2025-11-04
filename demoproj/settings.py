@@ -25,7 +25,7 @@ SECRET_KEY = '=i&!$0z00!cn&44alh)z7^n82k#=@hhoj#+6*i^emihi-g5e84'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['demoproj.eba-fv2rxpn2.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'movies'
 ]
 
 MIDDLEWARE = [
